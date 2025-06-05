@@ -115,16 +115,21 @@ body {
 }
 
 .aceitacookie a {
-    background-color: rgb(1, 204, 1);
+    background-color: rgb(212, 62, 16);
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: x-large;
+    box-shadow: 10px 5px rgb(175, 51, 13);
 }
 
 @media(max-width: 800px) {
     .showcase ul li {
         flex-direction: column;
     }
+    .showcase ul .dir {
+        flex-direction: column-reverse;
+    }
+
 }
